@@ -1,0 +1,21 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.774);
+}
+#first-title{
+    position: fixed;
+    left: 10%;
+    top: 10%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.form{
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    width: 300px;
+}
