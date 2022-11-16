@@ -1,21 +1,62 @@
 @charset "UTF-8";
-*{
-    margin: 0px;
-    padding: 0px;
-}
 body{
-    background-color: rgba(0, 0, 0, 0.774);
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
 }
 #first-title{
     position: fixed;
-    left: 10%;
+    left: 18%;
     top: 10%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT',  'Trebuchet MS', sans-serif;
+    font-weight: normal;
 
+}
+.text-comented{
+    position: fixed;
+    top: 35%;
+    left: 18%;
+    width: 225px;
 }
 .form{
     position: absolute;
     top: 40%;
     left: 60%;
     width: 300px;
+}
+input{
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 3px;
+    margin: 7px;
+    height: 15px;
+    padding: 5px;
+
+}
+.form a {
+    font-size: small;
+}
+#btn{
+    width: 70px;
+    height: 27px;
+    margin-top: 15px;
+    background-color: rgba(0, 0, 255, 0.808);
+    color: white;
+    border: none;
+}
+#btn:hover{
+    background-color: rgba(0, 0, 255, 0.918);
+    cursor: pointer;
+    border: 1px solid lightgray;
+}
+#cadastro-title{
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 10%);
+    text-align: center;
+}
+.cadastro{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
